@@ -1,0 +1,26 @@
+img {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 110px;
+    top: 50px;
+    border-radius: 4px;
+}
+.firstBar {
+    height: 25px;
+    width: 300px;
+    background-color: yellow;
+    position: absolute;
+    top: 410px;
+    left: 135px;
+    border-radius: 8px;
+}
+.secondBar {
+    height: 25px;
+    width: 300px;
+    background-color: mediumaquamarine;
+    position: absolute;
+    top: 435px;
+    left: 135px;
+    border-radius: 8px;
+}
