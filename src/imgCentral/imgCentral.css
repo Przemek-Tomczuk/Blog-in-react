@@ -2,7 +2,7 @@ img {
     height: 350px;
     width: 350px;
     position: absolute;
-    left: 110px;
+    left: 130px;
     top: 50px;
     border-radius: 4px;
 }
@@ -13,7 +13,6 @@ img {
     position: absolute;
     top: 410px;
     left: 135px;
-    border-radius: 8px;
 }
 .secondBar {
     height: 25px;
@@ -22,5 +21,4 @@ img {
     position: absolute;
     top: 435px;
     left: 135px;
-    border-radius: 8px;
 }
