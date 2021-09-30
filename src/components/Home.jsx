@@ -1,7 +1,8 @@
-import "./imgCentral.css"
+import React from "react";
+import "./styles.css"
 import chess from './chess.jpg';
 
-export default function ImgCentral() {
+function Home() {
     return (
         <div className="imgCentral">
             <img src={chess} alt="chess"/>
@@ -12,3 +13,4 @@ export default function ImgCentral() {
         </div>
     )
 }
+export default Home

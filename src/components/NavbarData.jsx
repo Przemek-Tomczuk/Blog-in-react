@@ -13,18 +13,18 @@ export const NavbarData = [
     },
     {
         title: "Aphorisms",
-        link: "/Quotes",
+        link: "/Aphorisms",
     },
     {
         title: "Books I recommend",
-        link: "/Quotes",
+        link: "/Books",
     },
     {
         title: "Shorts",
-        link: "/Quotes",
+        link: "/Shorts",
     },
     {
         title: "Bio & links",
-        link: "/Quotes",
+        link: "/Bio",
     },
 ] 

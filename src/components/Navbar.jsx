@@ -1,4 +1,6 @@
-import "./navbar.css"
+import React from "react";
+import { Link, withRouter } from "react-router-dom";
+import "./styles.css"
 import{NavbarData} from "./NavbarData"
 
 export default function Navbar() {
@@ -7,9 +9,11 @@ export default function Navbar() {
             <ul className="navbarList">
             {NavbarData.map((val, key) => {
                 return (
-                    <li key={key} className="row" onClick={() => {window.location.pathname =val.link}}>
-                        <div className="title">{val.title}</div>
+                    <Link to={val.link}>
+                    <li key={key} className="row">
+                            <div className="title">{val.title}</div>
                     </li>
+                    </Link>
                 )
             })}
             </ul>
