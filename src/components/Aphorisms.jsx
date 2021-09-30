@@ -4,8 +4,8 @@ import "./styles.css"
 
 function Aphorisms() {
     return (
-        <div>
-            <p>sss</p>
+        <div className="sectionName">
+            <p>Aphorisms</p>
         </div>
     )
 }

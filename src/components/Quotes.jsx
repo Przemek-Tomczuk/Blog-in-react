@@ -4,8 +4,8 @@ import "./styles.css"
 
 function Quotes() {
     return (
-        <div>
-            <p>sss</p>
+        <div className="sectionName">
+            <p>Quotes</p>
         </div>
     )
 }

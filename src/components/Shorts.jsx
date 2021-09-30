@@ -4,8 +4,8 @@ import "./styles.css"
 
 function Shorts() {
     return (
-        <div>
-            <p>sss</p>
+        <div className="sectionName">
+            <p>Shorts</p>
         </div>
     )
 }
