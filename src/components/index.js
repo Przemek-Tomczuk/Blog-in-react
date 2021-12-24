@@ -1,9 +1,4 @@
 export { default as Navbar } from "./Navbar";
 export { default as Header } from "./Header";
 export { default as Home } from "./Home";
-export { default as Aphorisms } from "./Aphorisms";
-export { default as Bio } from "./Bio";
-export { default as Books } from "./Books";
 export { default as Essays } from "./Essays";
-export { default as Quotes } from "./Quotes";
-export { default as Shorts } from "./Shorts";
